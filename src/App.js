@@ -28,6 +28,7 @@ class App extends React.Component {
   render() {
     console.log(this.state.users)
     console.log("Rendered")
+    console.log(process.env)
     return (
       <div className="App" >
         <header className="App-header">
